@@ -3,8 +3,8 @@ import * as types from '../mutation-types'
 // initial state
 // shape: [{ id, quantity }]
 const state = {
-    listCity: ['hanoi'],
-    apiKey: '',
+    listCity: ['hanoi', 'haiphong', 'tokyo'],
+    apiKey: '5f4c7bf54c09bd89b08040226827ef3d',
     apiUrl: 'https://api.openweathermap.org/data/2.5/',
 }
 

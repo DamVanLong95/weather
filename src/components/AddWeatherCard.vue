@@ -31,13 +31,13 @@
   justify-content: center;
   line-height: 0;
   transition: transform 300ms ease-out, border-color 300ms ease-out;
-}
+} 
 
 .button__add svg {
   height: 100%;
   width: 100%;
   fill: var(--accent-color);
-  transition: fill 300ms ease-out;
-}
+  animation: fill 300ms ease-out;
+} 
 </style>
 

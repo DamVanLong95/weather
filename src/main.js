@@ -6,6 +6,8 @@ import router from './router'
 import store from './store/index.js'
 import VueSweetalert2 from 'vue-sweetalert2';
 
+Vue.component('DemoLayout', '@/components/layouts/DemoLayout.vue');
+Vue.component('AuthLayout', '@/components/layouts/AuthLayout.vue');
 
 Vue.config.productionTip = false
 Vue.use(VueSweetalert2);
